@@ -1,8 +1,12 @@
 ru\yandex\practicum\catsgram\controller\HomeController.class
 ru\yandex\practicum\catsgram\exception\ConditionsNotMetException.class
 ru\yandex\practicum\catsgram\CatsgramApplication.class
-ru\yandex\practicum\catsgram\exception\NotFoundException.class
-ru\yandex\practicum\catsgram\controller\PostController.class
+ru\yandex\practicum\catsgram\controller\UserController.class
 ru\yandex\practicum\catsgram\model\Post.class
 ru\yandex\practicum\catsgram\model\Image.class
+ru\yandex\practicum\catsgram\service\UserService.class
+ru\yandex\practicum\catsgram\exception\DuplicatedDataException.class
+ru\yandex\practicum\catsgram\exception\NotFoundException.class
+ru\yandex\practicum\catsgram\controller\PostController.class
+ru\yandex\practicum\catsgram\service\PostService.class
 ru\yandex\practicum\catsgram\model\User.class

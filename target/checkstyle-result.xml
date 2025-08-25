@@ -6,7 +6,11 @@
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\PostController.java">
 </file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\UserController.java">
+</file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\exception\ConditionsNotMetException.java">
+</file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\exception\DuplicatedDataException.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\exception\NotFoundException.java">
 </file>
@@ -15,6 +19,10 @@
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\model\Post.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\model\User.java">
+</file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\service\PostService.java">
+</file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\service\UserService.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\resources\application.properties">
 </file>
