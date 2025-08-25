@@ -1,12 +1,16 @@
-#Sat Aug 16 10:14:53 MSK 2025
+#Sun Aug 24 12:24:19 MSK 2025
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\CatsgramApplication.java=1755243335112
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\controller\\HomeController.java=1755254565546
-C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\controller\\PostController.java=1755257852168
+C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\controller\\PostController.java=1756026172245
+C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\controller\\UserController.java=1756026172209
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\exception\\ConditionsNotMetException.java=1755254880119
+C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\exception\\DuplicatedDataException.java=1755332933346
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\exception\\NotFoundException.java=1755257852183
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\model\\Image.java=1755088469484
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\model\\Post.java=1755088469474
 C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\model\\User.java=1755088336881
+C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\service\\PostService.java=1756027425811
+C\:\\PPprojectGit\\Catsgram\\src\\main\\java\\ru\\yandex\\practicum\\catsgram\\service\\UserService.java=1756026977666
 C\:\\PPprojectGit\\Catsgram\\src\\main\\resources\\application.properties=1755253953940
 configuration*?=215E3AB2FCB980AABB3993495901B5839E1899C3
 module-resource*?\:suppressions.xml=8E4A4D7AED8E5B4D3F3CA955E812999D9078F8C1
