@@ -7,6 +7,7 @@ ru\yandex\practicum\catsgram\model\Image.class
 ru\yandex\practicum\catsgram\service\UserService.class
 ru\yandex\practicum\catsgram\exception\DuplicatedDataException.class
 ru\yandex\practicum\catsgram\exception\NotFoundException.class
+ru\yandex\practicum\catsgram\model\SortOrder.class
 ru\yandex\practicum\catsgram\controller\PostController.class
 ru\yandex\practicum\catsgram\service\PostService.class
 ru\yandex\practicum\catsgram\model\User.class
