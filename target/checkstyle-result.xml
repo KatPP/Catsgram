@@ -4,6 +4,8 @@
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\HomeController.java">
 </file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\ImageController.java">
+</file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\PostController.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\controller\UserController.java">
@@ -21,6 +23,8 @@
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\model\SortOrder.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\model\User.java">
+</file>
+<file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\service\ImageService.java">
 </file>
 <file name="C:\PPprojectGit\Catsgram\src\main\java\ru\yandex\practicum\catsgram\service\PostService.java">
 </file>
