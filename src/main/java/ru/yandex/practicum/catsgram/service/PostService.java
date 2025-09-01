@@ -1,14 +1,14 @@
 package ru.yandex.practicum.catsgram.service;
 
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 import ru.yandex.practicum.catsgram.exception.ConditionsNotMetException;
 import ru.yandex.practicum.catsgram.exception.NotFoundException;
 import ru.yandex.practicum.catsgram.model.Post;
+import ru.yandex.practicum.catsgram.model.SortOrder;
 
 import java.time.Instant;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 // Указываем, что класс PostService - является бином и его
 // нужно добавить в контекст приложения
@@ -18,13 +18,32 @@ public class PostService {
     private final Map<Long, Post> posts = new HashMap<>();
     private final UserService userService; // Внедряем зависимость
 
+    // Компаратор для сортировки постов по дате
+    private final Comparator<Post> postDateComparator = Comparator.comparing(Post::getPostDate);
+
+
     // Конструктор с внедрением UserService
     public PostService(UserService userService) {
         this.userService = userService;
     }
 
-    public Collection<Post> findAll() {
-        return posts.values();
+    /**
+     * Получает все посты с возможностью сортировки, пагинации
+     *
+     * @param sort  порядок сортировки (ASCENDING или DESCENDING)
+     * @param from  количество пропускаемых элементов (для пагинации)
+     * @param size  максимальное количество возвращаемых элементов
+     * @return коллекция отсортированных постов
+     */
+    public Collection<Post> findAll(SortOrder sort, int from, int size) {
+        return posts.values()           // Получаем все посты
+                .stream()               // Создаем поток для обработки
+                .sorted(sort.equals(SortOrder.ASCENDING) ?  // Сортируем по дате
+                        postDateComparator :                // По возрастанию
+                        postDateComparator.reversed())      // По убыванию
+                .skip(from)             // Пропускаем первые 'from' элементов
+                .limit(size)            // Ограничиваем количество результатов
+                .toList();              // Преобразуем в список
     }
 
     public Post create(Post post) {
@@ -66,6 +85,11 @@ public class PostService {
             return oldPost;
         }
         throw new NotFoundException("Пост с id = " + newPost.getId() + " не найден");
+    }
+
+    // Добавленный метод для поиска поста по ID
+    public Optional<Post> findByPostId(@PathVariable Long postId) {
+        return Optional.ofNullable(posts.get(postId));
     }
 
     // вспомогательный метод для генерации идентификатора нового поста
